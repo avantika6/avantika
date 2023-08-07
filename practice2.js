@@ -88,15 +88,23 @@
 //     const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
 //     console.log(myUpdatedVehicle);
 
-class friend{
-    constructor(name, place){
-        this.name = name;
-        this.place  = place;
-    }
+const myvehicle ={
+    brand: 'ford',
+    model
 }
-const myfriend1 = new friend("kriti" ," lucknow");
-const myfriend2 = new friend ("esha" , "mumbai");
 
-console.log ("my friend name is " + myfriend1.name + " and " + myfriend2.name);
-console.log( myfriend1.name + " lives in " + myfriend1.place);
-console.log( myfriend2.name + " lives in " + myfriend2.place);
+
+
+
+// class friend{
+//     constructor(name, place){
+//         this.name = name;
+//         this.place  = place;
+//     }
+// }
+// const myfriend1 = new friend("kriti" ," lucknow");
+// const myfriend2 = new friend ("esha" , "mumbai");
+
+// console.log ("my friend name is " + myfriend1.name + " and " + myfriend2.name);
+// console.log( myfriend1.name + " lives in " + myfriend1.place);
+// console.log( myfriend2.name + " lives in " + myfriend2.place);
